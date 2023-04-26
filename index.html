@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/src/output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Tailwind CSS Framework</title>
-</head>
-<body>
-    sakldlaskd
-</body>
+  </head>
+  <body>
+    <header
+      class="bg-gray-800 text-white px-5 flex justify-between items-center space-x-5"
+    >
+      <!-- Nav bar -->
+      <div class="flex space-x-5">
+        <div class="w-24 h-20">
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_256/v1656431456/web-images/logo-d-plus.svg"
+            alt="Hotstar Logo"
+          />
+        </div>
+
+        <div class="flex items-center space-x-5 text-sm">
+          <div><a href="#" class="hover:text-pink-400">Tv</a></div>
+          <div><a href="#" class="hover:text-pink-400">Movies</a></div>
+          <div><a href="#" class="hover:text-pink-400">Disney +</a></div>
+          <div><a href="#" class="hover:text-pink-400">Kids</a></div>
+        </div>
+      </div>
+
+      <div class="flex space-x-5 items-center text-sm">
+        <input
+          type="search"
+          placeholder="Search"
+          class="bg-gray-700 px-3 py-1 rounded-full outline-none"
+        />
+        <button
+          class="bg-blue-500 px-2 py-1 rounded-lg uppercase font-semibold hover:bg-blue-700"
+        >
+          Subscribe
+        </button>
+        <div class="font-semibold uppercase">Login</div>
+      </div>
+      <!-- End Nav bar-->
+    </header>
+  </body>
 </html>
